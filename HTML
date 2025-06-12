@@ -231,14 +231,11 @@
             overflow: hidden;
         }
 
-        .featured-card-image::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="white" opacity="0.3"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle><circle cx="80" cy="30" r="1.5" fill="white" opacity="0.5"><animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite"/></circle><circle cx="40" cy="70" r="1" fill="white" opacity="0.4"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle></svg>');
+        .featured-card-image img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover; 
+              display: block;
         }
 
         .featured-card-icon {
@@ -656,15 +653,17 @@
             <div class="featured-grid">
                 <div class="featured-card">
                     <div class="featured-card-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                        <div class="featured-card-icon">🏠</div>
+                      <img src="https://t97znj-bi.myshopify.com/cdn/shop/files/phhhhhh_0fd811d7-ed58-4cd8-80f8-281cc0095604.jpg?v=1731124058&width=823" alt="Water Purification System" />
+                        
                     </div>
                     <div class="featured-card-content">
-                        <h3>Premium Home Package</h3>
+                        <h3>2 cu ft Digital KL2000 System 2510</h3>
                         <p class="featured-card-description">Complete whole-house filtration system with UV sterilization and water softening. Perfect for families of 4-6 people.</p>
                     </div>
                     <div class="featured-card-footer">
                         <div>
-                            <div class="featured-price">$2,499</div>
+                          
+                            <div class="featured-price">$4,099.99</div>
                             <div class="featured-price-note">Installation included</div>
                         </div>
                         <a href="#contact" class="featured-cta">Get Quote</a>
@@ -672,16 +671,16 @@
                 </div>
                 
                 <div class="featured-card">
-                    <div class="featured-card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-                        <div class="featured-card-icon">🚿</div>
+                    <div class="featured-card-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"> 
+                        <img src="https://t97znj-bi.myshopify.com/cdn/shop/files/2510SXT-AI__67539.jpg?v=1731122245&width=360" alt="2510 Digital Air Injection Control Head" />
                     </div>
                     <div class="featured-card-content">
-                        <h3>Kitchen & Bath Combo</h3>
+                        <h3>2510 Digital Air Injection Control Head</h3>
                         <p class="featured-card-description">Under-sink reverse osmosis system plus shower filtration. Ideal for apartments and smaller homes.</p>
                     </div>
                     <div class="featured-card-footer">
                         <div>
-                            <div class="featured-price">$899</div>
+                            <div class="featured-price">$1,299.99</div>
                             <div class="featured-price-note">2-year warranty</div>
                         </div>
                         <a href="#contact" class="featured-cta">Get Quote</a>
@@ -690,7 +689,7 @@
                 
                 <div class="featured-card">
                     <div class="featured-card-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-                        <div class="featured-card-icon">🔬</div>
+                        
                     </div>
                     <div class="featured-card-content">
                         <h3>Water Testing Service</h3>
@@ -716,6 +715,7 @@
                 <div>
                     <div class="about-text">
                         <p>We specialize in providing custom-built solutions for water softening, filtering, reverse osmosis, UV light treatment, and detergent-less washing. Our team can help assist and recommend the best option to meet your specific requirements. Whether it’s for commercial, industrial, or residential use, we have the expertise to design and install the right system for you. Trust us to deliver high-quality water solutions that improve the quality of your water while also saving you money in the long run. Contact us today for a consultation.</p>
+                        <br>
              
                         <p>Our team of certified water treatment professionals uses state-of-the-art technology and premium equipment to address all your water quality concerns. From initial testing to system installation and ongoing maintenance, we're committed to delivering exceptional service and results.</p>
                     </div>
